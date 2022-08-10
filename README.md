@@ -47,5 +47,20 @@ For "Register";
    
 New records are assigned as "USER_ROLE". You can give "USER_ADMIN" authorization from database.
 
+The index page where the product is listed.
+
+    -> http://127.0.0.1:8000/
+
+The page where the products that are tried to be bought are listed.
+
+    -> http://127.0.0.1:8000/carts
+
+If there is a product in the cart, the shopping completion page, that is, the purchase page;
+On the far right of the "cart" page, the total price of the products in the cart is written. This is also a button, when we click on it, the purchase will take place.
+Example;
+
+    -> http://127.0.0.1:8000/buy?totalPrice=105000
+
+
    
 

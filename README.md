@@ -59,6 +59,6 @@ This is the page where the products in the basket are listed.
 
 If there is a product in the cart, the shopping completion page, that is, the purchase page;
 On the far right of the "cart" page, the total price of the products in the cart is written. This is also a button, when we click on it, the purchase will take place.
-Example;
+<br>Example;
 
     -> http://127.0.0.1:8000/buy?totalPrice=105000

@@ -28,7 +28,7 @@ The necessary database and tables for the system were created.
     -> symfony server:start 
 
 We run the project using the above command and if we have followed every step correctly, it goes to the "Home Page" page at https://127.0.0.1:8000/. 
-Username and password for "Login";
+<br>Username and password for "Login";
   
     -> test@test.com pass= 123456 
 

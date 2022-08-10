@@ -51,7 +51,7 @@ The index page where the product is listed.
 
     -> http://127.0.0.1:8000/
 
-The page where the products that are tried to be bought are listed.
+This is the page where the products in the basket are listed.
 
     -> http://127.0.0.1:8000/carts
 

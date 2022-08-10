@@ -17,6 +17,7 @@ To make the system work, we open our downloaded file folder via ide or text edit
      
 At the end of this process, the vendor and var folders are added to our folder. Then we run our server for our database operations. For our database operations, please update our DATABASE_URL variable on our .env page to suit you. Then we enter the commands in our terminal to create our current model information and database in the migrations folder.
 
+    -> .env ---> DATABASE_URL="mysql://root:@127.0.0.1:3306/e_commerce?serverVersion=mariadb-10.4.17"
     -> php bin/console doctrine:database:create
     -> php bin/console make:migration
     -> php bin/console doctrine:migrations:migrate

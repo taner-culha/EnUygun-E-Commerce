@@ -37,12 +37,13 @@ Username and password for "admin";
 
 To access the "Admin" panel;
 
-   -> http://127.0.0.1:8000/admin
+    -> http://127.0.0.1:8000/admin
 
-Our system is currently working. After that, you can add, delete, update categories and products on the panel.
+Our system is currently working. After that, you can add, delete, update categories and products on the panel. For "Register";
 
-For "Register";
-
-   -> http://127.0.0.1:8000/user_register
-
+    -> http://127.0.0.1:8000/user_register
+   
 New records are assigned as "USER_ROLE". You can give "USER_ADMIN" authorization from database.
+
+   
+

@@ -1,5 +1,5 @@
 # EnUygun-E-Commerce-Symfony-MySql
-Enuygun PHP Bootcamp Graduation Project
+EnUygun PHP Bootcamp Graduation Project
 
 
 Technologies Used and Versions

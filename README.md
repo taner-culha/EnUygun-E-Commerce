@@ -1,6 +1,7 @@
-# EnUygun-E-Commerce-Symfony-MySql
+# EnUygun-E-Commerce-Symfony-PHP-MySql
 EnUygun PHP Bootcamp Graduation Project
 
+Note: The database is in the "Database" folder.
 
 Technologies Used and Versions
 

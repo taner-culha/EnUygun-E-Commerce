@@ -24,3 +24,13 @@ At the end of this process, the vendor and var folders are added to our folder. 
 The necessary database and tables for the system were created.
 
     -> symfony server:start 
+
+We run the project using the above command and if we have followed every step correctly, it goes to the "Home Page" page at https://127.0.0.1:8000/. By default, a user with the user role is created for login to the panel and its information is:
+  
+    -> test@test.com pass= 123456 
+
+Admin username and password
+
+    -> tanerculha@outlook.com.tr pass= 123456 
+
+Our system is currently working. After that, you can add, delete, update categories, products and users on the panel.

@@ -39,7 +39,9 @@ To access the "Admin" panel;
 
     -> http://127.0.0.1:8000/admin
 
-Our system is currently working. After that, you can add, delete, update categories and products on the panel. For "Register";
+Our system is currently working. After that, you can add, delete, update categories and products on the panel. 
+
+For "Register";
 
     -> http://127.0.0.1:8000/user_register
    

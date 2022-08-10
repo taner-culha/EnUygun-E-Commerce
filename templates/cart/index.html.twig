@@ -1,0 +1,32 @@
+{% extends 'base.html.twig' %}
+
+{% block title %}EnUygun E-Commerce{% endblock %}
+
+{% block body %}
+
+<div>
+    <ul style="list-style-type: none; margin: 0; padding: 0;  overflow: hidden;">
+        <li style="float: left;"><a href="/" style="display: block; padding:12px 14px; background-color: #27ae60;display: block; padding:12px 16px;background-color: #27ae60;color:white; text-decoration:none; ">Home Page</a></li>
+        <li style="float: left;"><a href="/carts" style="display: block; padding:12px 14px; background-color: #27ae60;display: block; padding:12px 16px;background-color: #27ae60;color:white; text-decoration:none; ">Cart</a></li>
+        <li style="float: left;"><a href="user_register" style="display: block; padding:12px 14px; background-color: #27ae60;display: block; padding:12px 16px;background-color: #27ae60;color:white; text-decoration:none; ">Register</a></li>
+        <li style="float: left;"><a href="login" style="display: block; padding:12px 14px; background-color: #27ae60;display: block; padding:12px 16px;background-color: #27ae60;color:white; text-decoration:none;">Login</a></li>
+        <li style="float: right;"><a href="buy?totalPrice={{ totalPrice}}" style="display: block; padding:12px 14px; background-color: #27ae60;display: block; padding:12px 16px;background-color: #27ae60;color:white; text-decoration:none;">Buy: Total Price: {{ totalPrice}} ₺</a></li>       
+    </ul>
+</div>
+
+<center>
+<div class="row" >
+    {% for products in product %}
+        <div class="card" style="width: 18rem; float: left; display: inline-block; "> 
+            <div class="card-body" style="justify-content: space-between; border:1px solid black; margin:10px;">
+                <img src="/assets/images/products/{{ products.productImg }}" class="card-img-top" alt="{{ products.productName }} width="200" height="200" >
+                <h3 class="card-title">Name:{{ products.productName }} </h3>       
+                <h5 class="card-title">Quantity:{{ products.quantity}} </h5>       
+                <h5><p class="card-text">Description: {{ products.productDescription }}</p></h5>
+                <h5><p class="card-text">Price: {{ products.productPrice }} ₺</p></h5>            
+            </div>                    
+        </div>       
+    {% endfor %}
+</div>
+</center>
+{% endblock %}

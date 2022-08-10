@@ -61,7 +61,3 @@ On the far right of the "cart" page, the total price of the products in the cart
 Example;
 
     -> http://127.0.0.1:8000/buy?totalPrice=105000
-
-
-   
-
